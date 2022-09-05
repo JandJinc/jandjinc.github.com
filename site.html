@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joost</title>
+        <link href="daan_site.ico"  rel="icon" type="image/x-icon" />
+    </head>
+    <div class="container">
+        <Header class="header">
+            <h1 style="padding: 20px; margin: 0px; font-size: 50px;">Joost</h1>
+        </Header>
+        <body>
+            <div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Wie-Ben-Ik')">Wie Ben Ik</button>
+                    <button class="tablinks" onclick="openTab(event, 'Wat-Kan-Ik')">Wat Kan Ik</button>
+                    <button class="tablinks" onclick="openTab(event, 'Wat-Wil-Ik')">Wat Wil Ik</button>
+                </div>
+                <div>
+                    <!-- Tab content -->
+                    <div id="Wie-Ben-Ik" class="tabcontent" style="display: block;">
+                        <h3>Wie Ben Ik?</h3>
+                        <hr noshade></hr>
+                        <p style="line-height: 1.2;">
+                            Ik ben Joost<br>
+                            ik ben 15 jaar en word komende november 16<br>
+                            Ik kom uit <a href="https://www.google.nl/maps/place/Amsterdam" target=”_blank”>Amsterdam</a> en daar woon ik ook <br>
+                            Ik zat op de Dongeschool in de Rivierenbuurt<br>
+                            Mijn tandenborstel is <mark style="color: white;">wit</mark> met <mark style="color: green;">groen</mark><br>
+                            Mijn lievelingskleur is <mark style="color: red;">rood</mark>
+                        </p>
+
+                        <button type="button" class="collapsible">Familie</button>
+                        <div class="content">
+                            <h3>Familie</h3>
+                            <hr noshade></hr>
+                            <p  style="line-height: 1.2;">
+                                Ik woon samen met mijn vader moeder zusje en twee katten <mark style="color: orangered">Daan</mark> en <mark style="color: gray;">Pip</mark>
+                            </p>
+                            <img src="wie_ben_ik/Familie/daan.jpg" alt="Daan" style="display: inline-block; width: 40%;" >
+                            <img src="wie_ben_ik/Familie/pip.jpg" alt="Pip" style="display: inline-block; width: 40%;">
+                        </div>
+
+                        <button type="button" class="collapsible">Vrije Tijd</button>
+                        <div class="content">
+                            <h3>Vrije Tijd</h3>
+                            <hr noshade></hr>
+                            <p style="line-height: 1.2;">
+                                Afgelopen vakantie ben ik naar Friesland gevaren op de zeilboot van mij en mijn familie.<br>
+                                En ik heb een week gezeild in vinkeveen in een wat kleiner bootje.<br>
+                                Ik heb natuurlijk ook veel series gekeken en gezwommen<br>
+                                <br>
+                                Na school of in het weekend stel ik huiswerk eigenlijk zo ver mogelijk uit :)<br>
+                                En dan ga ik series kijken, code of minecraft. <br>
+                                Een van de laatste series die ik uit heb gekeken was Breaking Bad<br>
+                                <br>
+                                Ik speel natuurlijk ook spellen, zoals Minecraft en Valorant
+                            </p>
+                            <img src="wie_ben_ik/Vrije_Tijd/boot.jpg" alt="Onze Boot" style="display: inline-block; width: 40%; height: 200px;" >
+                            <img src="wie_ben_ik/Vrije_Tijd/braking_bad.jpg" alt="Breaking Bad" style="display: inline-block; width: 400px;" >
+
+                        </div>
+
+                        <button type="button" class="collapsible">Sport</button>
+                        <div class="content">
+                            <h3>Sport</h3>
+                            <hr noshade></hr>
+                            <p style="line-height: 1.2;">
+                                In de zomer zeil ik, ik kan "goed" zeilen in een Fusion en in een catamaran<br>
+                                en in de winter schaats ik 3x per week<br>
+                                Ik geef op zaterdagochtend schaatsles aan kinderen 
+                            </p>
+                            <img src="wie_ben_ik/Sport/catamaran.png" alt="catamaran" style="display: inline-block; width: 400px;" >
+                            <img src="wie_ben_ik/Sport/fusion.jpg" alt="fusion" style="display: inline-block; width: 400px;" >
+                        </div>
+
+                        <button type="button" class="collapsible">School</button>
+                        <div class="content">
+                            <h3>School</h3>
+                            <hr noshade></hr>
+                            <p style="line-height: 1.2;">
+                                Ik zit op Het Amsterdams Lyceum<br>
+                                Ik doe Latijn met een n&t, N&g pakket<br>
+                                Ik vind logischere vakken zoals nat en wis leuker/makkelijker, omdat dat logischers is<br>
+                                <br>
+                                Ook zit ik in de aula commissie en doe soms licht of geluid voor voorstellingen<br>
+                            </p>
+                            <img src="wie_ben_ik/School/het_amsterdams_lyceum.jpg" alt="School" style="display: inline-block; width: 400px;">
+                        </div>
+                </div>
+
+                <div id="Wat-Kan-Ik" class="tabcontent">
+                    <h3>Wat Kan Ik?</h3>
+                    <hr noshade></hr>
+                    <button type="button" class="collapsible">Sport</button>
+                    <div class="content">
+                        <h3>Sport</h3>
+                        <hr noshade></hr>
+                        <p style="line-height: 1.2;">
+                            Ik kan dus een beetje zeilen en schaatsen<br>
+                            Ik schaats al sinds ik 2 jaar oud ben<br>
+                            Mijn club is de Poelster en die ligt in Amstelveen<br>
+                            Ik vind short track leuker dan langebaan, omdat de krachten op je groter lijken, en dat is leuk<br>
+                            <br>
+                            Ik zeil al sinds mijn 6e bij <a href="https://www.zeilschoolvinkeveen.nl/index.php" target=”_blank”>Zeilschool De Vinkeveense Plassen</a><br>
+                            De catamaran vind ik de leukste boot, omdat hij best lastig is, maar als je het kan haal je iedereen in.
+                        </p>
+                        <img src="wat_kan_ik/Sport/catamaran.png" alt="catamaran" style="display: inline-block; width: 400px;" >
+                        <img src="wat_kan_ik/Sport/fusion.jpg" alt="fusion" style="display: inline-block; width: 400px;" >
+                    </div>
+                    <button type="button" class="collapsible">School</button>
+                    <div class="content">
+                        <h3>School</h3>
+                        <hr noshade></hr>
+                        <p style="line-height: 1.2;">
+                            Op school doe ik een natuur profiel<br>
+                            Biologie, Scheikunde, Natuurkunde & Wis B<br>
+                            Ik vind Bio het minst leuk van deze vakken, omdat de antwoorden soms een beetje subjectief zijn.<br>
+                            Scheikunde is prima zolang je het bijhoud.<br>
+                            Ik ben goed in Natuurkunde vorig jaar eindigde ik met een 94 :) .<br>
+                            Ik vind wiskunde redelijk makkelijk, omdat als ik iets minder goed snap, ik een programmaatje in python schrijf die het snel oplost.<br>
+                            En dan begrijp ik het.
+                        </p>
+                        <img src="wat_kan_ik/School/aula.jpg" alt="aula" style="display: inline-block; width: 400px;" >
+                        <img src="wat_kan_ik/School/gangen.jpg" alt="gangen" style="display: inline-block; width: 400px;" >
+                    </div>
+                    <button type="button" class="collapsible">Codeer Ervaring</button>
+                    <div class="content">
+                        <h3>Codeer Ervaring</h3>
+                        <hr noshade></hr>
+                        <p style="line-height: 1.2;">
+                            Ik programeer vooral in python, omdat dat makkelijker is om te begrijpen, maar ik vind het minder mooi om met dicts te werken.<br>
+                            Ik heb verschillende projecten in python, van api request parsen om rijk te worden in een spel<br>
+                            Tot een physics engine die het zonnestelsel berekend (of als er 2 zonnen zouden zijn) met pygame<br>
+                            Of een simulation framework om makkelijk data te simuleren met pygame.<br>
+                            <br>
+                            Mijn git is <a href="https://github.com/Merc4tor?tab=repositories" target="_blank">Mijn Github<a><br>
+                            <br>
+                            Ik doe soms samen met <a href="" target="_blank">Jonathan<a> code projectjes<br>
+                            <br>
+                            <i>Sinds kort maak ik ook als werk sites in Vue voor een oud-docent met html, css en javascript.</i>
+                        </p>
+                        <img src="wat_kan_ik/Code/api.png" alt="an api requester"  style="display: inline-block; width: 400px;">
+                    </div>
+                </div>
+                <div id="Wat-Wil-Ik" class="tabcontent">
+                <button type="button" class="collapsible">Nu</button>
+                <div class="content">
+                    <h3>Nu Mee Bezig</h3>
+                    <hr noshade></hr>
+                    <p style="line-height: 1.2;">
+                        Ik ben nu bezig met kijken wat voor soort projecten ik leuk vind. <br>
+                        Kijken naar verschillende programma's en talen, zoals: <br>
+                        scratch, blender, davinci resolve, minecraft datapacks, python simulators, pythons api consumers & Vue sites servers.<br>
+                        Ik vind de python dingen tot nu toe het leukst, omdat er met relatief weinig code heel veel werkt.<br>
+                        <br>
+                        Ik codeer nu voornamelijk in Vscode, omdat die extensions heel fijn en snel zijn.<br>
+                    </p>
+                    <img src="wat_wil_ik/Nu/vscode.png" alt="Vscode"  style="display: inline-block; width: 400px;">
+                </div>
+                <button type="button" class="collapsible">Soort Werk</button>
+                <div class="content">
+                    <h3>Soort Werk</h3>
+                    <hr noshade></hr>
+                    <p style="line-height: 1.2;">
+                        Ik wil zowiezo iets technisch doen<br>
+                        Op Youtube kijk ik vaak wiskunde of natuurkunde filmpjes<br>
+                        <br>
+                        Ik vind dynamische neural networks interessant, omdat ze zo op echt leven lijken<br>
+                        Neural Networks vind ik soiezo heel leuk, omdat ze dingen "bedenken" in de hidden layers die niemand begrijpt<br>
+                        Er was laatst een neural netwerk getraind op echte dingen die vallen en botsen, en het netwerk moest voorspellen wat er daarna ging gebeuren<br>
+                        Het lukte, alleen toen de onderzoekers keken naar hoe het netwerk op het antwoord kwam, zagen ze dat het netwerk compleet onbekende constanten had gevonden, die dus wel werken<br>
+                        <br>
+                        Maar een keer een product ontwerpen lijkt mij ook leuk.
+                    </p>
+                    <img src="wat_wil_ik/Werk/neural_network.png" alt="Neural Network"  style="display: inline-block; width: 400px;">
+                </div>
+                <button type="button" class="collapsible">Verder</button>
+                <div class="content">
+                    <h3>Verder</h3>
+                    <hr noshade></hr>
+                    <p style="line-height: 1.2;">
+                        Eigenlijk heb ik nog niet echt een idee wat ik wil gaan doen<br>
+                        Ik ga gewoon een beetje mee met wat er op mijn pad komt.<br>
+                        <br>
+                        Maar mij lijkt Data Science, Technische Universiteit Eindhoven of iets met natuurkunde wel leuk om te studeren<br>
+
+                    </p>
+                    <img src="wat_wil_ik/Verder/uva.jpg" alt="uva"  style="display: inline-block; width: 400px;">
+                </div>
+            </div>
+        </body>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            collapibles = document.getElementsByClassName("content")
+            for (i = 0; i < collapibles.length; i++) {
+                collapibles[i].style.display = "none";
+            }
+            content.style.display = "block";
+            }
+        });
+        }
+        function openTab(evt, name) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace("active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(name).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+
+    </script>
+</html>
+
+<style>
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    height: 92vh;
+
+    background: lightgray;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+
+    font-family: sans-serif;
+
+    overflow-y: scroll;
+}
+.header {
+    background-color: rgb(235, 235, 235);
+}
+mark {
+    background: none;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 3px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  animation: fadeEffect 1s;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+</style>
