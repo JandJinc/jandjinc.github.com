@@ -28,6 +28,8 @@
         </v-timeline>
     </div>
     
+    <i>De tekst uit deze pagina is "geinspireerd" :) door: </i> <a href="https://appmaster.io/nl/blog/tijdlijn-kunstmatige-intelligentie-ai-2022-update" target="_blank">AppMaster</a> & <a href="https://www.sutori.com/en/story/tijdlijn-kunstmatige-intelligentie--YpU6g6TZ9bhRBgg2rsvNgAxV" target="_blank">Sutori</a>
+
     
     </template>
     
