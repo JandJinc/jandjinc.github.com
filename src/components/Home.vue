@@ -1,6 +1,10 @@
 <template>
 <iframe src="https://jonathanenjoost.github.io" style="width: 100vw; height: 92vh"></iframe>
+<h1>Dropdown Menu</h1>
 
+<div :style="{'height': '500px', 'width': '100%', 'background-color': colors[items.indexOf(selected_item)]}">
+    <v-select :items="items" v-model="selected_item" variant="solo"></v-select>
+</div>
 
 <!-- <img style="text-align: left; height: 400px" :src="require('@/assets/startphotoai.jpg')">
 
@@ -17,7 +21,24 @@ Op deze website gaan wij u proberen uit te leggen wat AI is, wat het doet, wat d
 
 
 export default {
-    name: 'HomePage'
+    name: 'HomePage',
+    data(){
+        return {
+            selected_item: 'Dit',
+            items: ['Dit', 'is', 'een', 'Dropdown', 'Menu', 'die', 'de', 'kleur', 'veranderd'],
+            colors: [
+                'red',
+                'green',
+                'blue',
+                'orange',
+                'brown',
+                'pink',
+                'white',
+                'black',
+                'violet',                
+            ]
+        }
+    }
 }
 </script>
 
