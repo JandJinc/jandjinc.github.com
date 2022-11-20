@@ -45,7 +45,7 @@
     flex-direction: row;
     overflow-x: scroll;
     overflow-y: none;
-
+    background-color: #555;
 }
 
 /* body[data-navactive="true"] .nav-links {
@@ -56,6 +56,7 @@
 
 #navlinks a{
     text-decoration: none;
+    background-color: #555;
 }
 
 #navlinks h2 {
@@ -67,7 +68,7 @@
 }
 
 #navlinks img {
-    width: max(10vw, 250px);
+    width: max(8vw, 250px);
     aspect-ratio: 1.8 / 1;
     object-fit: cover;
     border-radius: 0.5em;

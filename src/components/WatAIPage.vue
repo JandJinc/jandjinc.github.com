@@ -1,7 +1,7 @@
 <template>
 <div class="pa-4">
-    <img :src="require('@/assets/2ndphotoai.jpg')" style="float: right; height: 400px" >
-<p style="font-size: 130%; white-space: pre-line; float: none">
+    <img :src="require('@/assets/questionmark.jpg')" style="float: right; height: 400px; margin: 40px;" >
+<p style="@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); font-family: 'EB Garamond', serif; font-size: 200%; white-space: pre-line; float: none">
     {{`Wat is AI: AI oftewel artificial intelligence is een computer programma dat het denkvermogen van mensen na doet. Momenteel is AI nog niet zo goed dat het meerdere functies van mensen over kan nemen, maar het kan wel al enkele overnemen of dingen doen die mensen niet kunnen.
 
     Denk dan bijvoorbeeld aan bots die het gedrag van mensen kan voorspellen. Een redelijk bekend geval hiervan heeft te maken met Target, een Amerikaanse supermarktketen. Het verhaal gaat als volgt: 

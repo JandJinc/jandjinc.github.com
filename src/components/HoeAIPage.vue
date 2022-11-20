@@ -8,7 +8,8 @@
             Onderzoekers hebben ooit een AI laten kijken naar veel data van vallende objecten op aarde. Het doel was de AI te laten voorspellen wat er ging gebeuren in een situatie die de AI nog nooit had gezien. De AI voorspelde perfect hoe dat object ging vallen, het antwoord was dus goed, maar toen de onderzoekers gingen kijken naar hoe de AI op dat antwoord is gekomen zagen ze dat de AI allemaal niet bestaande (of onbekende) natuurkundige constanten, eenheden en formules had gebruikt. 
             Dit voorbeeld zet je ook aan het denken over of wij wel op het “goede” natuurkundige pad zitten, omdat er kennelijk ook andere constanten zijn die wij niet kennen maar wel werken
         `}}
-        <img style="height: 300px; float: left;" class="mx-4" :src="require('@/assets/neural_network.png')">
+        <br><br><br>
+        <img style="height: 300px; float: right;" class="mx-4" :src="require('@/assets/neural_network.png')">
         {{`
             Maar nu wordt het een beetje wiskundig :’)
 
@@ -54,7 +55,7 @@ Bij die laatste zien we dat hij -1 geeft terwijl 0 verwachtte. Hier is een oplos
 De output (en dus ook inputs voor volgende neurons) vallen alleen tussen 0 en 1
 Dus we moeten alle mogelijke outputs ($-\\infty$ tot $\\infty$) tussen 0 en 1 proppen.
 Hiervoor gebruiken we een “sigmoid function” `}}{{sigmoid_formula}}
-    <img style="height: 300px; align: start; display: flex" class="ma-2"  :src="require('@/assets/sigmoid_function.png')"><br>
+    <img style="height: 300px; float: right; transform: translateY(-50%) translateX(-25%); align: start; display: flex" class="ma-2"  :src="require('@/assets/sigmoid_function.png')"><br>
     {{`
 Deze functie geeft voor alle input waardes een output tussen $-\\infty$ en $\\infty$
 Dit is handig omdat je dan de uitkomst van die som van al die $weights$ een valide output geeft.
@@ -84,7 +85,7 @@ En dat zijn precies de outputs die we willen.
 Dit was echt de basis basis van hoe ze werken. Met deze instellingen kan je elke neuron bij elke input elke output laten geven.
 Echte grote netwerken zoals die van google hebben soms wel miljoenen neurons met miljarder connecties (dus heel veel weight). Wat die weights zijn is een soort slim gokken (veel wiskunde), tot jij blij bent met de output. 
 `}}
-<img style="height: 300px"  :src="require('@/assets/google_ai.jpg')">
+<br><br><br><br>
 
 </div>
 

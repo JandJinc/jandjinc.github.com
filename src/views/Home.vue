@@ -25,13 +25,14 @@
             <div style="margin-top: 10vh; ">
                 <component :is="page.component"></component>
             </div>
-            <div class="d-flex" :style="{'position': 'fixed','background-color': page.color, 'width': '100%', 'top': '0', 'min-height': '8vh', 'justify-content': 'space-between', 'z-index': '1000'} ">
+            <div class="d-flex" :style="{'position': 'fixed','background-color': page.color, 'width': '100%', 'top': '0', 'justify-content': 'space-between', 'min-height': '8vh', 'z-index': '1000'} ">
                 <img class="float-left mt-2 ml-4" @click="clickPage('home')" :src="require('@/assets/big_site_logo.png')" style="max-height: 9vh;">
-                <p  style="font-size: 200%">{{page.text}}</p>
-                <div style="margin-left: auto;"></div>
+                <p class="d-flex justify-center align-center" style="font-size: 250%; margin-left: auto; font-weight: bold;">{{page.text}}</p>
+                <!-- <div style="margin-left: auto;"></div> -->
                 <div 
                     height="8vh" 
                     class="justify-end align-center d-flex"
+                    style="margin-left: auto; padding: 0;"
                     @click="clickPage(pages[selectedPageIndex === 0 ?selectedPageIndex : selectedPageIndex - 1 ].name)"
                     ><v-icon 
                         class="menu-arrow" 
@@ -41,6 +42,7 @@
                 <div 
                     height="8vh" 
                     class="justify-end align-center d-flex"
+                    style="margin: 0; padding: 0;"
                     @click="clickPage(pages[selectedPageIndex === pages.length - 1 ? selectedPageIndex : selectedPageIndex + 1].name)"
                     ><v-icon 
                         class="menu-arrow" 
@@ -81,14 +83,15 @@
     </div>
     <div
         width="100%"
-        class="nav-window"
+        class="nav-window d-flex justify-center align-center"
         @mouseover="menu_on = true"
-        :style="{'transform': calcOffset(menu_on), 'transition': menu_on ? 'all 0.4s cubic-bezier(1,1,.62,1.33)' : 'all 0.2s' }"
+        :style="{'transform': calcOffset(menu_on), 'transition': menu_on ? 'all 0.4s cubic-bezier(1,1,.62,1.33)' : 'all 0.2s'}"
+        
         >
 
-        <div style="transform: translateY(-85px);" class="px-4" >
+        <div style="transform: translateY(-85px); width: 100%; height: 100%; overflow-y: hidden;" class="px-4" >
             <div id="navlinks">
-                <div style="overflow-y: scroll; min-height: fit-content" :class="{'d-flex': true, 'justify-center': true, 'flex-column': !$vuetify.display.mdAndUp, 'flex-row' : $vuetify.display.mdAndUp}">
+                <div style="overflow-y: scroll; min-height: fit-content" :class="{'d-flex': true, 'justify-center': true}">
                     <div 
                         v-for="(page, index) in pages"
                         :key="index"
@@ -97,7 +100,6 @@
                         >
                         <h2 class="nav-link-title">{{page.name}}</h2>
                         <img :src="require('@/assets/' + page.photo)" alt="" class="nav-link-img" />
-                        <p :class="'nav-link-p-' + (index + 1)">{{page.text}}</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +147,7 @@ export default defineComponent({
                 {
                     name: 'wat',
                     component: 'WatAIPage',
-                    photo: 'design.png',
+                    photo: 'questionmark.jpg',
                     color: '#2a9d8f',
                     text: 'Wat is AI?'
                 },
@@ -159,14 +161,14 @@ export default defineComponent({
                 {
                     name: 'wanneer',
                     component: 'WanneerAIPage',
-                    photo: 'design.png',
+                    photo: 'wanneerai.jpg',
                     color: '#e9c46a',
                     text: 'Wanneer wordt AI gebruikt?'
                 },
                 {
                     name: 'geschiedenis',
                     component: 'GeschiedenisAIPage',
-                    photo: 'design.png',
+                    photo: 'geschiedenis.jpg',
                     color: '#1aba92',
                     text: 'Geschiedenis van AI?'
                 },
