@@ -35,3 +35,5 @@ Onze extra's:
 * Een geanimeerde achtergrond
 
 * Mooie navigatie: de pijltjes en de navigatiebalk
+
+* Een copyright teken met een datum erachter die zich aanpast aan het jaar
