@@ -16,6 +16,7 @@
 </v-overlay>
 <div v-if="!show_overlay" style="font-size: 15em">
     Je weet ons te vinden voor extra contact ;)
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a3Z7zEc7AXQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </template>
  
