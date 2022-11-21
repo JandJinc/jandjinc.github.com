@@ -5,7 +5,7 @@
     <div :style="{'height': '500px', 'width': '100%', 'background-color': colors[items.indexOf(selected_item)]}">
         <v-select :items="items" v-model="selected_item" variant="solo"></v-select>
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/w0AOGeqOnFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     <!-- <img style="text-align: left; height: 400px" :src="require('@/assets/startphotoai.jpg')">
     
     <p style="white-space: pre-line; font-size: 150%">
