@@ -22,8 +22,9 @@
             :value="page.name"
             style="overflow-y: scroll;"
             >
-            <div style="margin-top: 10vh; ">
-                <component :is="page.component"></component>
+            <div class="d-flex justify-end flex-column" style="margin-top: 10vh; min-height: 90vh;">
+                <component :is="page.component" class="mb-auto"></component>
+                <p class="mt-auto" style="font-weight: bold; font-size: 2em; font-family: 'EB Garamond', serif; letter-spacing: .1em;">&copy;{{ new Date().getFullYear() }} Jonathan       Joost</p>
             </div>
             <div class="d-flex" :style="{'position': 'fixed','background-color': page.color, 'width': '100%', 'top': '0', 'justify-content': 'space-between', 'min-height': '8vh', 'z-index': '1000'} ">
                 <img class="float-left mt-2 ml-4" @click="clickPage('home')" :src="require('@/assets/big_site_logo.png')" style="max-height: 9vh;">
@@ -32,7 +33,7 @@
                 <div 
                     height="8vh" 
                     class="justify-end align-center d-flex"
-                    style="margin-left: auto; padding: 0;"
+                    style="margin-left: auto; padding: 0; font-size: 3em;"
                     @click="clickPage(pages[selectedPageIndex === 0 ?selectedPageIndex : selectedPageIndex - 1 ].name)"
                     ><v-icon 
                         class="menu-arrow" 
@@ -42,7 +43,7 @@
                 <div 
                     height="8vh" 
                     class="justify-end align-center d-flex"
-                    style="margin: 0; padding: 0;"
+                    style="margin: 0; padding: 0;  font-size: 3em;"
                     @click="clickPage(pages[selectedPageIndex === pages.length - 1 ? selectedPageIndex : selectedPageIndex + 1].name)"
                     ><v-icon 
                         class="menu-arrow" 
@@ -248,14 +249,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+x
 .menu-arrow {
     transition: font-size 0.1s ease;
-    font-size: 400%
+    font-size: 1em
 }
 .menu-arrow:hover {
     transition: font-size 0.1s ease;
-    font-size: 500%
+    font-size: 2em
 }
 .menu-button{
     transition: all 0.2s ease;
@@ -264,6 +265,6 @@ export default defineComponent({
     transform: rotate(180deg)
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import "./styles.css"
 </style>
