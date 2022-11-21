@@ -120,6 +120,7 @@ import WanneerAIPage from '@/components/WanneerAIPage'
 import HoeAIPage from '@/components/HoeAIPage'
 import VoorbeeldenPage from '@/components/VoorbeeldenPage'
 import GeschiedenisAIPage from '@/components/GeschiedenisAIPage'
+import ContactPage from '@/components/ContactPage'
 
 export default defineComponent({
     name: 'Home',
@@ -130,7 +131,8 @@ export default defineComponent({
         HoeAIPage,
         VoorbeeldenPage,
         WanneerAIPage,
-        GeschiedenisAIPage
+        GeschiedenisAIPage,
+        ContactPage
     },
     data(){
         return {
@@ -186,6 +188,13 @@ export default defineComponent({
                     photo: 'aivoorbeelden.jpg',
                     color: '#e76f51',
                     text: 'Voorbeelden van AI'
+                },
+                {
+                    name: 'contact',
+                    component: 'ContactPage',
+                    photo: 'telefoontje.jpg',
+                    color: 'purple',
+                    text: 'Contact'
                 },
 
             ],
