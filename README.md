@@ -17,3 +17,21 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Over de opdracht.
+
+Onze extra's:
+
+* Custom routing: kijk boven in de zoekbalk.
+
+* Gebruik gemaakt van een Javascript-framework.
+
+* Custom animaties
+
+* Hij staat online op https://jonathan-joost.web.app/
+
+* Een mooie tijdlijn
+
+* Een geanimeerde achtergrond
+
+* Mooie navigatie: de pijltjes en de navigatiebalk
