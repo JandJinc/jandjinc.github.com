@@ -37,3 +37,5 @@ Onze extra's:
 * Mooie navigatie: de pijltjes en de navigatiebalk
 
 * Een copyright teken met een datum erachter die zich aanpast aan het jaar
+
+* En een leuke gimmick op de contact pagina
