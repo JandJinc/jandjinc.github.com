@@ -1,6 +1,7 @@
 <template>
     <v-overlay 
         persistent 
+
         class="d-flex align-center justify-center flex-row" v-model="show_overlay">
             <v-carousel v-model="selected_index" style="min-width: 600px;background-color: rgba(0, 0, 0, 0)"  :show-arrows="false" hide-delimiter-background>
                 <v-carousel-item :value="index" class="d-flex align-center justify-center" v-for="(text, index) in ('Geef nooit zomaar je gegevens op het internet :) want we hebben nu al jouw ip ' + JSON.stringify(ip).toString()).split(' ')" :key="index">
@@ -14,7 +15,7 @@
                 x
             </div>
     </v-overlay>
-    <div v-if="!show_overlay" style="font-size: 15em">
+    <div v-if="(show_overlay == false)" style="font-size: 15em">
         Je weet ons te vinden voor extra contact ;)
         <iframe width="560" height="315" src="https://www.youtube.com/embed/a3Z7zEc7AXQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h1 style="font-size: 100%">Dropdown Menu</h1>
@@ -45,7 +46,7 @@ export default {
  data(){
     return {
         ip: '',
-        show_overlay: false,
+        show_overlay: true,
         selected_index: 0,
         selected_item: 'Dit',
             items: ['Dit', 'is', 'een', 'Dropdown', 'Menu', 'die', 'de', 'kleur', 'veranderd'],
