@@ -24,14 +24,8 @@
             <v-select :items="items" v-model="selected_item" variant="solo"></v-select>
             <iframe style="transform: translateX(120%) translateY(12%); top: 0;" width="560" height="315" src="https://www.youtube.com/embed/w0AOGeqOnFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div v-if="selected_index == 16" class="d-flex justify-center align-center" @click="show_overlay = false" style="width: 300px; height: 200px; color: red; font-size: 10em; background-color: rgba(0,0,0,0.4);">
-            x
-        </div>
     </div>
-<div v-if="!show_overlay" style="font-size: 15em">
-    Je weet ons te vinden voor extra contact ;)
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/a3Z7zEc7AXQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
 </template>
  
 <script>

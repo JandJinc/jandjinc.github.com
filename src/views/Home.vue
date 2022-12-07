@@ -227,7 +227,7 @@ export default defineComponent({
             document.body.dataset.navactive = document.body.dataset.navactive === "true" ? "false" : "true";
         },
         calcOffset(menu_on){
-            return menu_on ? 'translateY(-200px)' : 'translateY(0%)'
+            return menu_on ? 'translateY(-150px)' : 'translateY(0%)'
         },
         editMenuOn(input){
             if (this.is_animating != true) {
