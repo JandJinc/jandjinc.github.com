@@ -2,8 +2,8 @@
 
 <div class="pa-4">
 
-    <img :src="require('@/assets/wanneerai.jpg')" style="float: left; margin: 45px 55px 0px 45px; padding: 0px; height: 400px">
-<p style="@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); font-family: 'EB Garamond', serif; font-size: 200%; white-space: pre-line; padding: 7px;">
+    <img :src="require('@/assets/wanneerai.jpg')" style="float: left; margin: 45px; height: 400px">
+<p style="@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); font-family: 'EB Garamond', serif;font-size: 200%; white-space: pre-line;">
     {{`AI kan gebruikt worden in bijna alles wat mensen kunnen of niet kunnen. Ja, echt bijna alles, AI is dus een soort denkende computer die heel snel dingen aan elkaar kan koppelen. Dat is eigenlijk wat mensen (en dieren) ook doen, ze koppelen gevoel of input aan iets interns en dat reflecteren ze weer in hun gedrag.
 
 Als AI theoretisch alles kan doen wat een mens kan, waarom maken/doen we dat niet en laten we de AI een nachtje aan staan om allemaal wereldproblemen op te lossen?

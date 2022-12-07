@@ -33,13 +33,12 @@
     z-index: 1;
     margin: 0;
     padding: 0;
-    transform: translateY(90%);
 }
 
 
 .nav-links {
     transition: all 0.2s;
-   
+    transform: scale(1);
     margin: 0;
     padding: 0;
     display: flex;
@@ -82,7 +81,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 1 / 1 / 2 / 2;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -90,7 +89,7 @@
 }
 
 #nav-link1:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -99,7 +98,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 1 / 2 / 2 / 3;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -107,7 +106,7 @@
 }
 
 #nav-link2:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -116,7 +115,7 @@
     /*justify-content: center;
     align-items: center; */
     grid-area: 1 / 3 / 2 / 4;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opactiy;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -124,7 +123,7 @@
 }
 
 #nav-link3:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -133,7 +132,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 2 / 1 / 3 / 2;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -141,7 +140,7 @@
 }
 
 #nav-link4:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -150,7 +149,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 2 / 2 / 3 / 3;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -158,7 +157,7 @@
 }
 
 #nav-link5:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -167,7 +166,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 2 / 3 / 3 / 4;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -175,7 +174,7 @@
 }
 
 #nav-link6:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 
@@ -184,7 +183,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 2 / 3 / 3 / 4;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -192,7 +191,7 @@
 }
 
 #nav-link7:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 #nav-link8 {
@@ -200,7 +199,7 @@
     /*justify-content: center;
     align-items: center;*/
     grid-area: 2 / 3 / 3 / 4;
-    transform: scale(0.90);
+    transform: scale(0.92);
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -208,7 +207,7 @@
 }
 
 #nav-link8:hover {
-    transform: scale(0.97);
+    transform: scale(1.08);
     opacity: 1;
 }
 .nav-link-p-1 {
