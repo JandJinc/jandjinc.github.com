@@ -6,5 +6,12 @@ module.exports = defineConfig({
     vuetify: {
 			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
 		}
+  },
+  configureWebpack: {
+    devServer: {
+        headers: {
+            'X-Frame-Options' : 'ALLOWALL'
+        }
+    }
   }
 })

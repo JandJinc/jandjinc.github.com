@@ -32,11 +32,12 @@ const router = createRouter({
 })
 
 // router.beforeEach((to, from, next) => {
-//     console.log(to)
+//     console.log(from)
 //     // if (to.name == 'page-not-found'){
 //     //     next('/')
 //     //     return true
 //     // }
+//     next()
 // })
 
 export default router
